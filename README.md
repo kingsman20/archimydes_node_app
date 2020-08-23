@@ -20,7 +20,7 @@ I assumed that the user will specify the acount type when creating a new user
 	"lastName": "Obot",
 	"email": "kingsley@example.com",
 	"password": "secret",
-  "role": "Admin" // Optional, default is user
+        "role": "Admin" // Optional, default is user
 }
 ```
 <br>
