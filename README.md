@@ -10,7 +10,7 @@
 - TypeORM
 
 ## Asumptions
-I assumed that the user will specify the acount type when creating a new user
+- I assumed that the user will specify the acount type when creating a new user
 
 ## Endpoint
 - POST `http://localhost:3001/api/auth/register` to register an account
@@ -62,3 +62,6 @@ I assumed that the user will specify the acount type when creating a new user
 }
 ```
 <br>
+
+Improvements
+- Unfortunately, due to time constraints, I couldn't refactor the controller to make use of a Service.
