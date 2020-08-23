@@ -51,7 +51,7 @@ I assumed that the user will specify the acount type when creating a new user
 - GET `http://localhost:3001/api/tickets` to get all tickets (Admin role). Add token `x-access-token` in the header
 <br>
 
-- GET `http://localhost:3001/api/tickets/{id}` to get a single ID. Add token `x-access-token` in the header
+- GET `http://localhost:3001/api/tickets/{id}` to get a single ID. You can only get the item you created. Add token `x-access-token` in the header
 <br>
 
 - PUT `http://localhost:3001/api/tickets/{id}` to make changes to a ticket (Admin role). Add token `x-access-token` in the header
