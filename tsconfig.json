@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es2017",
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": ["src/**/*.ts", "1598144641490-DefaultUser.ts"],
+  "exclude": ["node_modules"]
+}
